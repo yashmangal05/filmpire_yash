@@ -74,5 +74,3 @@ const Actors = () => {
 };
 
 export default Actors;
-
-//testing
