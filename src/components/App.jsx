@@ -4,7 +4,8 @@ import { Switch, Route } from 'react-router-dom';
 
 import useStyles from './styles';
 
-import { Actors, MovieInformation, Movies, NavBar, Profile } from './'
+import { Actors, MovieInformation, NavBar, Profile } from './';
+import { Movies } from './';
 
 export const App = () => {
     const classes = useStyles();
