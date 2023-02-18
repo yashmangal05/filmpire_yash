@@ -23,15 +23,15 @@ export const App = () => {
                     <Route exact path="/actors/:id">
                         <Actors />
                     </Route>
-                    <Route exact path="/">
+                    <Route exact path={["/", "/approved"]}>
                         <Movies />
                     </Route>
                     <Route exact path="/profile/:id">
                         <Profile />
                     </Route>
                 </Switch>
-            </main>
-        </div>
+            </main >
+        </div >
     )
 }
 
